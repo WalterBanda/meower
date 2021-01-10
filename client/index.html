@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meower - Twitter for Cats 😸</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>"
+    />
+  </head>
+
+  <body>
+    <div class="app">
+      <main>
+        <header class="app-title">
+          <h1 class="title">Meower - Twitter 🐦 for Cats 🐈</h1>
+        </header>
+        <form class="mew-form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="🐱‍💻"
+            class="u-full-width"
+          />
+          <label for="content">Mew</label>
+          <textarea
+            type="text"
+            id="content"
+            name="content"
+            class="u-full-width"
+          >
+          </textarea>
+          <button type="submit" class="button-primary mew-btn">
+            Mew 🐱‍ Now
+          </button>
+        </form>
+        <div class="loading">
+          <img src="loading.svg" alt="app is loading" />
+        </div>
+      </main>
+
+      <div class="mews scroll scroll--simple"></div>
+    </div>
+
+    <script src="client.js"></script>
+  </body>
+</html>
